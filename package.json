@@ -4,18 +4,10 @@
   "description": "A rabbitmq response reply experience",
   "main": "index.js",
   "scripts": {
-    "one:c": "node test/one/send.js",
-    "one:s": "node test/one/receiver.js",
-    "two:c": "node test/two/client.js",
-    "two:s": "node test/two/server.js",
-    "three:c": "node test/three/client.js",
-    "three:s": "node test/three/server.js",
-    "four:c": "node test/four/client.js",
-    "four:s": "node test/four/server.js",
-    "five:c": "node test//clifiveent.js",
-    "five:s": "node test/servfiveer.js",
-    "six:c": "node test//cliesixnt.js",
-    "six:s": "node test//sersixver.js"
+    "one:send": "node test/one/send.js",
+    "one:receiver": "node test/one/receiver.js",
+    "two:new_task": "node test/two/new_task.js",
+    "two:worker": "node test/two/worker.js"
   },
   "repository": {
     "type": "git",
