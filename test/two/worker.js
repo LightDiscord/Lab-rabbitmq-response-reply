@@ -7,7 +7,7 @@ async function send () {
     const channel = await connection.createChannel()
     const queue = 'task_queue'
 
-    channel.assertQueue(queue, { durable: false })
+    channel.assertQueue(queue, { durable: true })
     
     console.log(`> Waiting for messages in %s. To exit press CTRL+C`, queue)
     channel.consume(queue, (message) => {
