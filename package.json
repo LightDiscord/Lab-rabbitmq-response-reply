@@ -4,8 +4,18 @@
   "description": "A rabbitmq response reply experience",
   "main": "index.js",
   "scripts": {
-    "client": "node test/client.js",
-    "server": "node test/server.js"
+    "one:c": "node test/one/send.js",
+    "one:s": "node test/one/receiver.js",
+    "two:c": "node test/two/client.js",
+    "two:s": "node test/two/server.js",
+    "three:c": "node test/three/client.js",
+    "three:s": "node test/three/server.js",
+    "four:c": "node test/four/client.js",
+    "four:s": "node test/four/server.js",
+    "five:c": "node test//clifiveent.js",
+    "five:s": "node test/servfiveer.js",
+    "six:c": "node test//cliesixnt.js",
+    "six:s": "node test//sersixver.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +31,8 @@
     "Lab",
     "RabbitMQ",
     "response-reply"
-  ]
+  ],
+  "dependencies": {
+    "amqplib": "^0.5.1"
+  }
 }
