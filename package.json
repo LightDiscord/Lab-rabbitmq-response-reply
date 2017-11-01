@@ -1,0 +1,25 @@
+{
+  "name": "@lab/rabbitmq-response-reply",
+  "version": "1.0.0",
+  "description": "A rabbitmq response reply experience",
+  "main": "index.js",
+  "scripts": {
+    "client": "node test/client.js",
+    "server": "node test/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LightDiscord/Lab-rabbitmq-response-reply.git"
+  },
+  "author": "LightDiscord <contact@lightdiscord.fr> (https://lightdiscord.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LightDiscord/Lab-rabbitmq-response-reply/issues"
+  },
+  "homepage": "https://github.com/LightDiscord/Lab-rabbitmq-response-reply#readme",
+  "keywords": [
+    "Lab",
+    "RabbitMQ",
+    "response-reply"
+  ]
+}
